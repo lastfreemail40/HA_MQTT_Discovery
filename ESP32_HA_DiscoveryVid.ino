@@ -42,8 +42,8 @@ const int DHTPIN = 22;
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 const char*         g_ssid = "your Wifi Name";
 const char*         g_password = "Wifi Password";
-const char*         g_mqtt_server = "192.168.1.25";                           // MQTT Server IP, same of Home Assistant
-const char*         g_mqttUser = "mosquitto";                                 // MQTT Server User Name
+const char*         g_mqtt_server = "homeassistant.local";                           // MQTT Server IP, same of Home Assistant
+const char*         g_mqttUser = "mqtt-user";                                 // MQTT Server User Name
 const char*         g_mqttPsw = "password";                                   // MQTT Server password
 int                 g_mqttPort = 1883;                                        // MQTT Server Port
 
